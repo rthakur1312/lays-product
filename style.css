@@ -677,7 +677,7 @@ footer .footer_row--top div h2 {
 }
 
 .performance-facts {
-    margin-left: 15px;
+    margin-left: 15px !important;
 }
 
 
