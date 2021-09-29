@@ -54,6 +54,7 @@ body {
   .product-description p {
     font-size: 16px;
     line-height: 1.5;
+      padding: 20px 0;
 
     
            
@@ -66,7 +67,7 @@ body {
 
   #product-image {
     background-color: #F8CE41;
-    width: 80%;
+    width: 100%;
 
   }
 
@@ -109,6 +110,7 @@ body {
     width: 37px;
     height: 37px;
     margin: 0 10px;
+      
   }
 
   .social-share {
@@ -117,6 +119,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 20px;
+      padding: 20px 0;
   }
 
   .social-share p {
@@ -186,7 +189,11 @@ img.mx-100 {
 }
 
 canvas{
-    transform: scale(2);
+    transform: scale(1.6);
+}
+
+h1 {
+    font-size:1.5em
 }
 
 
