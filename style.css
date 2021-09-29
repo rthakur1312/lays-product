@@ -3,6 +3,33 @@ body {
     font-family: sans-serif;
 
   }
+  @font-face {
+    font-family: 'GT Walsheim';
+    src: url('/font/GTWalsheimBold.woff2') format('woff2'),
+        url('/font/GTWalsheimBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/font/GTWalsheimBold.woff2') format('woff2'),
+        url('/font/GTWalsheimBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/font/GTWalsheimBold.woff2') format('woff2'),
+        url('/font/GTWalsheimBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
   canvas {
     display: block;
   }
@@ -54,10 +81,15 @@ body {
   .product-description p {
     font-size: 16px;
     line-height: 1.5;
-      padding: 20px 0;       
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;    
+    padding: 20px 0;   
   }
+
   #product {
     background-image: url('/Background\ -\ \ Product\ -\ Classic.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     
     
   }
@@ -100,12 +132,12 @@ body {
       width: 50px;
       position: absolute;
       margin-left: 20px;
-      top: 130px;
+      top: 200px;
   }
 
   .social-share-trigger {
-    width: 37px;
-    height: 37px;
+    width: 30px;
+    height: 30px;
     margin: 0 10px;
   }
 
@@ -118,9 +150,11 @@ body {
     padding: 20px 0;
   }
 
-  .social-share p {
+  .social-share h3 {
     font-weight: bold;
     font-size: 22px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
   }
 
   .lays-coupon--container-bg-desktop {
@@ -192,6 +226,460 @@ h1 {
     font-size:1.5em !important;
 }
 
+.lays-related-product-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.lays-related-product .view-products {
+    padding: 0px 15px 20px 15px;
+}
+
+.lays-related-product .view-products a {
+    border-radius: 25px;
+    margin: auto;
+    width: 160px;
+    padding: 15px;
+    text-align: center;
+    background-color: #D62F30;
+}
+
+.lays-related-product a {
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+}
+.lays-section-container {
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    padding: 20px;
+}
+
+.lays-related-product {
+    margin: 25px 30px;
+    background-color: #fec033;
+    position: relative;
+    z-index: 2;
+    width: 295px;
+}
+
+.lays-related-product .products-category-title {
+    padding: 15px;
+}
+
+.products-category-title {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    line-height: 1.3;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+
+}
+
+#lays-social-block {
+    background-image: url(/lay-blue-background.jpeg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    padding: 50px 0;
+}
+
+.lays-pepper {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
+.lays-related-block .lays-chip-left {
+    top: 300px;
+}
+
+.lays-chip-left {
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+}
+
+.lays-section-container h2 {
+    font-size: 48px !important;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+}
+
+.lays-social-video-main-wrapper {
+    background-image: url(/lays-green-background.jpeg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+}
+
+.lays-social-video-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lays-onion {
+    width: 35%;
+    position: absolute;
+    top: -60px;
+}
+
+.container-video {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.lays-cream {
+    width: 35%;
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
+
+#home-video {
+    position: relative;
+}
+
+.video-item {
+    margin: 0 auto;
+}
+
+.video-section {
+    background: transparent;
+    padding: 98px 0;
+    overflow: hidden;
+}
+
+.container-video {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.container-video, .container-social {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.video-section .video-title h3 {
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 48px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+}
+
+.arrow-section-footer-white {
+    background-image: url('/arrow-white.png');
+    height: 100px !important;
+    top: -100px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+footer .footer_row {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .footer_row--top {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #E0E0E0;
+    text-align: center;
+}
+
+.clearfix {
+    display: block;
+}
+
+footer .footer_row--top p {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 16px;
+    color: #000000;
+    font-size: 18px;
+}
+
+footer .footer_row .btn_red {
+    padding: 12px 40px;
+    min-width: 150px;
+}
+
+.btn-footer_fixed {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.btn_red, .btn-red__navbar {
+    background-color: #db1d2c !important;
+    padding: 12px 30px;
+    color: white !important;
+    text-align: center;
+    transition: all 0.2s;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none !important;
+    font-family: 'Open Sans',sans-serif;
+    min-width: 150px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+
+#footer-btn {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer_row--bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer_row--bottom {
+    background-image: linear-gradient(to right,#0e4ca9,#0d479e,#0b4293,#0b3d88,#0a387d);
+}
+
+.padding-bottom-none {
+    padding-bottom: 0 !important;
+}
+
+.footer-middle {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.tr-copyright {
+    margin-top: -16px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right,#0e4ca9,#0d479e,#0b4293,#0b3d88,#0a387d);
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+footer .footer_row--bottom--links ul li a {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.tr-copyright p {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff !important;
+}
+
+.brands-navbar__center-align {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+ul {
+    list-style: none;
+}
+
+
+
+.lays-logo {
+    width: 65px;
+    max-width: 100%;
+    height: auto;
+}
+
+.lays-navbar__vertical-align ul a {
+    color: #da252e;
+}
+
+.lays-navbar__vertical-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    position: relative;
+}
+
+.lays-navbar__vertical-align {
+    background-color: #FECE1C !important;
+}
+
+.lays .fa-navbar {
+    background: #D62728 !important;
+    font-size: 14px !important;
+}
+
+.brands-navbar__social-icons img {
+    width: 80%;
+}
+
+.brands-navbar__social-icons {
+    margin: 0 8px;
+}
+
+#nav-twitter > img {
+    width: 80%;
+}
+
+footer .footer_row--top div h2 {
+    font-weight: 700;
+    font-style: normal;
+    width: 100%;
+    font-size: 48px;
+    color: #000000;
+    padding-bottom: 16px;
+    text-transform: inherit;
+}
+
+.product-description h1 {
+    font-family: 'GT Walsheim';
+    font-weight: bold;
+}
+
+.lays-product-nutrition {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lays-product-nutrition .performance-facts {
+    padding: 0;
+    line-height: 1.4;
+    width: 100%;
+    margin: 0;
+    float: none;
+    padding: 0 15px;
+}
+
+.lays-product-nutrition .linkeable {
+    font-size: 40px;
+    padding: 30px 0px;
+    line-height: 1.3em;
+    font-weight: bold;
+    font-family: 'Raleway',sans-serif;
+}
+
+.lays-productdetails-nutrition-table {
+    width: 100%;
+}
+
+.font-black .lays-productdetails-nutrition-row {
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.font-black {
+    color: #000000;
+}
+.lays-productdetails-nutrition-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid 
+}
+
+.lays-productdetails-nutrition-cell {
+    padding: 6px 2px;
+    font-size: 0.875em;
+    font-weight: normal;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.lays-productdetails-nutrition-header-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.color {
+    background-color: rgba(255,255,255,0.3);
+}
+
+
+.lays-product-nutrition .product-ingredients {
+    padding: 0 15px;
+}
+
+.lays-product-nutrition .product-ingredients {
+    width: 100%;
+}
+
+.performance-facts {
+    margin-left: 15px;
+}
+
 
 @media screen and (max-width: 768px) {
     #myDiv {
@@ -236,7 +724,7 @@ h1 {
 }
 
 #product-img-bg img {
-    top: 10px;
+    top: 90px;
 }
 
 .lays-coupon--container {
@@ -250,12 +738,25 @@ h1 {
 }
 
 .product-description p {
-    padding: 0 10px;
-    padding: 20px 0;
+    padding: 0 10px !important;
+    padding: 25px 0;
 }
 
 #product {
     padding: 10px 0;
+}
+
+.lays-related-product-wrapper {
+    flex-direction: column !important;
+}
+
+.nav {
+    flex-direction: column;
+    align-items: center;
+}
+
+.lays-product-nutrition {
+    flex-direction: column;
 }
 
 }
@@ -271,6 +772,10 @@ h1 {
     } */
 
 } 
+
+
+
+
 
 
 
@@ -312,4 +817,50 @@ h1 {
 
 }
 
+@media screen and (max-width: 1920px) {
+.arrow-section-footer-white {
+    height: 60px;
+    top: -55px;
+}
+}
+
+@media only screen and (min-width: 991px) {
+.tr-copyright {
+    padding-top: 32px;
+    margin-top: -1px;
+}
+
+.center-align-dsk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lays-navbar__vertical-align {
+    padding: 5px 32px;
+    height: 75px;
+}
+.brands-navbar__center-align {
+    display: flex !important;
+}
+
+.lays-logo {
+    height: 54px;
+}
+.justify-end {
+    justify-content: flex-end !important;
+}
+.brands-navbar__ul a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.brands-navbar__ul a {
+    font-family: 'GT Walsheim';
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+    transition: 0.3s all;
+    font-weight: 900;
+}
+
+}
 
