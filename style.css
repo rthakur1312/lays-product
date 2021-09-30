@@ -186,7 +186,8 @@ body {
       /* align-items: center; */
   }
 
-  #product {
+  
+{
     padding: 5em;
   }
 
@@ -232,7 +233,7 @@ body {
   #product {
     background-image: url('/Background\ -\ \ Product\ -\ Classic.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     
     
   }
