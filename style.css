@@ -831,6 +831,15 @@ div#to-open-close-search-popover-container {
     width: 100%;
 }
 
+li {
+    width: 100%;
+}
+
+#product-img-bg img {
+    width: 38px;
+}
+
+
 }
 
  @media only screen 
@@ -1453,9 +1462,9 @@ div#to-open-close-search-popover-container {
       margin-bottom: 48px;
     }
   
-    .navbar-default {
+    /* .navbar-default {
       display: none;
-    }
+    } */
   
     .brands-navbar__mobile-topnav {
       display: block;
@@ -1487,9 +1496,9 @@ div#to-open-close-search-popover-container {
       box-shadow: 0 3px 0 0 #1b3c94 !important;
     }
 
-    .navbar-default {
+    /* .navbar-default {
         display: none;
-    }
+    } */
   
   }
   
@@ -2089,4 +2098,8 @@ div#to-open-close-search-popover-container {
 
     .header__logo-container {
         z-index: 999999;
+    }
+
+    .hidden, .d-none {
+        display: none !important;
     }
