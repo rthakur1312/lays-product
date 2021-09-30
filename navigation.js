@@ -62,6 +62,10 @@
   handleBrandMenuListener();
 
  
+ 
+ 
+ 
+ 
  /* Fixed Nav Scroll Effect*/
 
  $(window).scroll(function () {
@@ -77,9 +81,19 @@
 
     /* Hide TR navbar in mobile view*/
 
+    $(window).resize(function () {
+        if ($(window).width() < 992) {
+          // $('#tasty-theme').addClass('hidden');
+          $('.navbar-default').css("display", "none");
+        } else {
+          // $('#tasty-theme').removeClass('hidden');
+          $('.navbar-default').css("display", "flex");
+        }
+      }).resize();
+
    
 
-        // TR Navbar in Mobile
+       // TR Navbar in Mobile
   $('#button-mbl-back').on('click', function (e) {
     $('.navbar-default').hide().css('display' + 'none');
     // $('#brands_navigation').show();
