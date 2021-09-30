@@ -61,14 +61,6 @@
 
   handleBrandMenuListener();
 
-  $(window).resize($.debounce(100, function () {
-    handleBrandMenuListener();
-  }));
- 
- 
- 
- 
- 
  
  /* Fixed Nav Scroll Effect*/
 
