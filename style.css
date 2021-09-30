@@ -1,9 +1,7 @@
 body {
     margin: 0;
-    font-family: sans-serif;
-
   }
-  @font-face {
+  /* @font-face {
     font-family: 'GT Walsheim';
     src: url('/font/GTWalsheimBold.woff2') format('woff2'),
         url('/font/GTWalsheimBold.woff') format('woff');
@@ -28,7 +26,152 @@ body {
     font-weight: bold;
     font-style: normal;
     font-display: swap;
+} */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Bold.woff2') format('woff2'),
+        url('/font/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Bold.woff2') format('woff2'),
+        url('/font/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Bold.woff2') format('woff2'),
+        url('/font/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-BoldItalic.woff2') format('woff2'),
+        url('/font/Raleway-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Italic.woff2') format('woff2'),
+        url('/font/Raleway-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-LightItalic.woff2') format('woff2'),
+        url('/font/Raleway-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Light.woff2') format('woff2'),
+        url('/font/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-MediumItalic.woff2') format('woff2'),
+        url('/font/Raleway-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Medium.woff2') format('woff2'),
+        url('/font/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Bold.woff2') format('woff2'),
+        url('/font/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-Regular.woff2') format('woff2'),
+        url('/font/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/font/Raleway-SemiBold.woff2') format('woff2'),
+        url('/font/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/font/GTWalsheimBold.woff2') format('woff2'),
+        url('/font/GTWalsheimBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/font/GTWalsheimBold.woff2') format('woff2'),
+        url('/font/GTWalsheimBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/font/GTWalsheimBlack.woff2') format('woff2'),
+        url('/font/GTWalsheimBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/font/GTWalsheimBold.woff2') format('woff2'),
+        url('/font/GTWalsheimBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 
   canvas {
     display: block;
@@ -80,7 +223,7 @@ body {
 
   .product-description p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.3;
     font-family: 'Raleway',sans-serif;
     font-weight: 700;    
     padding: 20px 0;   
@@ -102,7 +245,9 @@ body {
 
   .product-claims {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: flex-end;
+    margin-right: 3em;
   }
 
   .product-claims-wrap {
@@ -110,7 +255,7 @@ body {
   }
 
   .product-claims-wrap img {
-    width: 60%;
+    width: 57%;
   }
 
   #product-img-bg {
@@ -146,7 +291,7 @@ body {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-left: 20px;
     padding: 20px 0;
   }
@@ -162,6 +307,8 @@ body {
     background-image: url('/lays-yellow-background.jpeg');
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
 
@@ -244,6 +391,7 @@ h1 {
     padding: 15px;
     text-align: center;
     background-color: #D62F30;
+    font-weight:bold;
 }
 
 .lays-related-product a {
@@ -268,6 +416,9 @@ h1 {
 
 .lays-related-product .products-category-title {
     padding: 15px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 800;
 }
 
 .products-category-title {
@@ -390,11 +541,18 @@ a:hover {
     color: #ffffff;
     font-size: 70px;
     line-height: 1;
-    text-transform: uppercase;
     margin: 0;
     padding-bottom: 48px;
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
+}
+
+.lays-text-title {
+    font-size: 48px !important;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize !important;
 }
 
 .arrow-section-footer-white {
@@ -404,6 +562,8 @@ a:hover {
     width: 100%;
     overflow: hidden;
     background-size: cover;
+    background-color: #FCD90C;
+    background-position: center;
 }
 
 
@@ -726,6 +886,13 @@ a#active_link-mobile:hover {
 a.sign_in.jsModalSignIn:hover {
     color: #0e4caa !important;
 }
+.claim-logo {
+    font-size: 14px !important;
+}
+
+#myDiv > div.product-description > div.product-claims > span:nth-child(3) > img {
+    width: 90%;
+}
 
 
 
@@ -839,6 +1006,17 @@ li {
     width: 38px;
 }
 
+.product-claims {
+    justify-content: center;
+    align-items: unset;
+    margin-top: 2em;
+    margin-right: 0;
+}
+
+.social-share {
+    justify-content: center;
+}
+
 
 }
 
@@ -935,7 +1113,6 @@ li {
     padding-right: 15px;
 }
 .brands-navbar__ul a {
-    font-family: 'GT Walsheim';
     font-style: normal;
     text-align: center;
     color: #000000;
@@ -1095,7 +1272,7 @@ li {
   .navbar-default a, .navbar-mbl-tr{
     color: #000000;
     padding: 0 15px !important;
-    font-family: 'GTWalsheimBold';
+    font-family: 'GT Walsheim';
     font-weight: 400;
     font-style: normal;
   }
@@ -1241,14 +1418,18 @@ li {
   }
   
   .brands-navbar__ul a {
-    font-family: 'GTWalsheimBold';
     font-style: normal;
     text-align: center;
     color: #000000;
     transition: 0.3s all;
-    font-weight: 800;
+    font-weight: 700;
     color:#000 !important;
+    font-family: 'GT Walsheim';
   }
+
+  ul.brands-navbar__ul.brands-navbar__center-align {
+    margin: 0;
+}
   
   /*.nav>li>a:focus, .nav>li>a:hover {*/
   /*  background-color: transparent;*/
